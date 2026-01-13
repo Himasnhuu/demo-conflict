@@ -15,5 +15,10 @@ public class calci {
     static int subtract(int a, int b){
         return a-b;
     }
+    static int divide(int c, int d){
+        if(d!=0)
+            return c/d;
+        return 1;
+    }  
 }
 
