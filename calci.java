@@ -13,6 +13,8 @@ public class calci {
         //calling subtraction
         System.out.println(subtract(n1, n2));
         sc.close();
+        // calling division
+        System.out.println(divide(n1,n2));
     }
 
     static int subtract(int a, int b){
