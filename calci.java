@@ -9,6 +9,9 @@ public class calci {
         int n2 = sc.nextInt();
         int c = n1 + n2;
         System.out.println(c);
+
+        //calling subtraction
+        System.out.println(subtract(n1, n2));
         sc.close();
     }
 
@@ -19,5 +22,10 @@ public class calci {
     static int multiplication(int a, int b) {
         return a * b;
     }
+    static int divide(int c, int d){
+        if(d!=0)
+            return c/d;
+        return 1;
+    }  
 }
 
