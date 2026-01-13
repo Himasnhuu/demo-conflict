@@ -15,5 +15,9 @@ public class calci {
     static int subtract(int a, int b){
         return a-b;
     }
+
+    static int multiplication(int a, int b) {
+        return a * b;
+    }
 }
 
