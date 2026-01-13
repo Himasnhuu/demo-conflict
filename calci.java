@@ -11,4 +11,9 @@ public class calci {
         System.out.println(c);
         sc.close();
     }
+
+    static int subtract(int a, int b){
+        return a-b;
+    }
 }
+
